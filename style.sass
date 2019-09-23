@@ -1,0 +1,71 @@
+$primary: #944a78
+$text: #2e5e6f
+$text2: aliceblue
+
+html
+  background: linear-gradient(to bottom right, cadetblue, aliceblue) center center fixed
+  background-repeat: no-repeat
+
+  body
+    font-size: 1em
+    font-family: 'Red Hat Display', sans-serif
+    font-size: larger
+    background-color: transparent
+    
+    
+    #pic
+      img 
+        width: 30%
+    
+    .tipApp
+      color: $text
+      background-color: aliceblue
+      border-radius: 5px
+      border: 2px solid $primary
+      padding: 0
+      text-align: center
+      margin: 20px 0 200px
+      h2
+        text-align: center
+        background-color: $primary 
+        width: 100%
+        margin: 0
+        padding: 10px 0
+        color: $text2
+        border-radius: 2px 2px 0 0
+      p
+        margin-bottom: 0
+      button
+        background-color: $primary
+        border: 2px solid $primary
+        border-radius: 22px
+        padding: 5px 25px
+        outline: none
+        text-transform: uppercase
+        font-size: 20px
+        font-weight: bold
+        color: $text2
+        display: none
+        &.active
+          display: block
+
+        &:hover
+          border-color: $primary
+          background-color: $primary
+          outline: none
+      
+      .content
+        padding: 20px 10px
+        width: 100%
+        .tipAmount
+          label
+            padding-right: 15px
+            &:last-child
+              padding-right: 0
+        .results
+          display: none
+          &.active
+            display: block
+            border-top: 2px solid $primary
+            span
+              padding-left: 5px

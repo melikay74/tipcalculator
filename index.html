@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <title>JS Practice</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row tipApp mx-auto col col-md-4">
+            <h2>Tip Calculator</h2>
+            <div class="content">
+                <!-- <h3>Time stuff</h3>
+            <br />
+            <button id="timeBtn" class="btn-primary">What time is it?</button>
+            <div id="pic">
+                <img src="" alt="" />
+            </div> -->
+
+                <p>How much was your bill?</p>
+                <label>$</label>
+                <input id="billAmount" type="number" min="0" step="0.01" name="amount" placeholder="0.00">
+
+                <div class="tipAmount">
+                    <p class="mt-3">Tip Amount:</p>
+                    <input type="radio" name="tipPercent" value="15" />
+                    <label for="tipPercent">15%</label>
+                    <input type="radio" name="tipPercent" value="20" checked />
+                    <label for="tipPercent">20%</label>
+                    <input type="radio" name="tipPercent" value="25" />
+                    <label for="tipPercent">25%</label>
+                </div>
+                <button id="calcTip" class="mx-auto mt-6 active text-uppercase">Calculate!</button>
+
+                <div class="results pt-3 mt-3">
+                    <p class="displayTipAmount font-weight-bold h5">Tip Amount: <span></span></p>
+                    <p class="displayTotalBill pt-3 font-weight-bold h5">Total Bill: <span></span></p>
+                </div>
+                <button id="reset" class="mx-auto mt-4 text-uppercase active">Reset</button>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

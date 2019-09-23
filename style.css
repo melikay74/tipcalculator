@@ -1,0 +1,90 @@
+html {
+  background: -webkit-gradient(linear, left top, right bottom, from(cadetblue), to(aliceblue)) center center fixed;
+  background: linear-gradient(to bottom right, cadetblue, aliceblue) center center fixed;
+  background-repeat: no-repeat;
+}
+
+html body {
+  font-size: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: larger;
+  background-color: transparent;
+}
+
+html body #pic img {
+  width: 30%;
+}
+
+html body .tipApp {
+  color: #2e5e6f;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 2px solid #944a78;
+  padding: 0;
+  text-align: center;
+  margin: 20px 0 200px;
+}
+
+html body .tipApp h2 {
+  text-align: center;
+  background-color: #944a78;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  color: aliceblue;
+  border-radius: 2px 2px 0 0;
+}
+
+html body .tipApp p {
+  margin-bottom: 0;
+}
+
+html body .tipApp button {
+  background-color: #944a78;
+  border: 2px solid #944a78;
+  border-radius: 22px;
+  padding: 5px 25px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  display: none;
+}
+
+html body .tipApp button.active {
+  display: block;
+}
+
+html body .tipApp button:hover {
+  border-color: #944a78;
+  background-color: #944a78;
+  outline: none;
+}
+
+html body .tipApp .content {
+  padding: 20px 10px;
+  width: 100%;
+}
+
+html body .tipApp .content .tipAmount label {
+  padding-right: 15px;
+}
+
+html body .tipApp .content .tipAmount label:last-child {
+  padding-right: 0;
+}
+
+html body .tipApp .content .results {
+  display: none;
+}
+
+html body .tipApp .content .results.active {
+  display: block;
+  border-top: 2px solid #944a78;
+}
+
+html body .tipApp .content .results.active span {
+  padding-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
